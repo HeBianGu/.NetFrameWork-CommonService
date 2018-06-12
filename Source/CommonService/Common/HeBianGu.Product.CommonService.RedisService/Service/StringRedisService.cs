@@ -20,7 +20,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HeBianGu.Product.CommonService.RedisService
+namespace HeBianGu.Product.CommonService.Redis
 {
 
     /// <summary> 字符串缓存 </summary>

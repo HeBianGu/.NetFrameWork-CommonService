@@ -20,7 +20,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HeBianGu.Product.CommonService.RedisService
+namespace HeBianGu.Product.CommonService.Redis
 {
     public class ZSetRedisService : RedisServiceBase
     {

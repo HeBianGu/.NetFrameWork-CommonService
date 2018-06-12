@@ -41,7 +41,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Product.CommonServ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Product.CommonService.Net", "..\..\Source\CommonService\Common\HeBianGu.Product.CommonService.NetService\HeBianGu.Product.CommonService.Net.csproj", "{1101AA25-ECF5-4E4A-B28A-A0E2BFC209E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Product.CommonService.RedisService", "..\..\Source\CommonService\Common\HeBianGu.Product.CommonService.RedisService\HeBianGu.Product.CommonService.RedisService.csproj", "{7F1E15A4-C187-410F-866E-9F1960E9090E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Product.CommonService.Redis", "..\..\Source\CommonService\Common\HeBianGu.Product.CommonService.RedisService\HeBianGu.Product.CommonService.Redis.csproj", "{7F1E15A4-C187-410F-866E-9F1960E9090E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Product.CommonService.Tool", "..\..\Source\CommonService\Common\HeBianGu.Product.CommonService.Tool\HeBianGu.Product.CommonService.Tool.csproj", "{130C3FC4-8C95-4B4F-A3FE-63690468C081}"
 EndProject
@@ -126,7 +126,7 @@ Global
 		{3CF459A1-F097-45B9-8E35-CA5FA65E0266} = {5CDE9F2E-9263-433F-86DF-4EB200DD9FE6}
 		{29901304-CDA6-4D48-BD29-D0ECA0DC5112} = {5CDE9F2E-9263-433F-86DF-4EB200DD9FE6}
 		{1101AA25-ECF5-4E4A-B28A-A0E2BFC209E2} = {5CDE9F2E-9263-433F-86DF-4EB200DD9FE6}
-		{7F1E15A4-C187-410F-866E-9F1960E9090E} = {5CDE9F2E-9263-433F-86DF-4EB200DD9FE6}
+		{7F1E15A4-C187-410F-866E-9F1960E9090E} = {D466A66A-1464-43FE-9117-ADF56EE9F160}
 		{130C3FC4-8C95-4B4F-A3FE-63690468C081} = {5CDE9F2E-9263-433F-86DF-4EB200DD9FE6}
 	EndGlobalSection
 EndGlobal

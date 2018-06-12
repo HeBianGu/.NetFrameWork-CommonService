@@ -7,8 +7,8 @@
     <ProjectGuid>{7F1E15A4-C187-410F-866E-9F1960E9090E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HeBianGu.Product.CommonService.RedisService</RootNamespace>
-    <AssemblyName>HeBianGu.Product.CommonService.RedisService</AssemblyName>
+    <RootNamespace>HeBianGu.Product.CommonService.Redis</RootNamespace>
+    <AssemblyName>HeBianGu.Product.CommonService.Redis</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

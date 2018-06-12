@@ -21,7 +21,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HeBianGu.Product.CommonService.RedisService
+namespace HeBianGu.Product.CommonService.Redis
 {
 
     /// <summary> 缓存配置信息 </summary>
