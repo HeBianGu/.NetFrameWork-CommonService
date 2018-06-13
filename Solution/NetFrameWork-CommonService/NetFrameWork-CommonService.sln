@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonService", "CommonService", "{B68D8EE2-4040-4097-9EC3-041EF64EA0DE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{E20BEDF9-8927-4764-A7E9-E6508022A35E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - DataBase", "2 - DataBase", "{E20BEDF9-8927-4764-A7E9-E6508022A35E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Product.CommonService.DataBase.Accecss", "..\..\Source\CommonService\DataBase\HeBianGu.Product.CommonService.DataBase.Accecss\HeBianGu.Product.CommonService.DataBase.Accecss.csproj", "{4C50F191-48F1-4785-865F-B2EDE0852CEF}"
 EndProject
@@ -13,25 +13,25 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Product.CommonServ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Product.CommonService.IO", "..\..\Source\CommonService\IO\HeBianGu.Product.CommonService.IO\HeBianGu.Product.CommonService.IO.csproj", "{0FE7853F-C7C8-4F54-9440-56FED6D3F631}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IO", "IO", "{FF19D42C-E17F-490E-B59A-DD4DAC41F0BF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - IO", "3 - IO", "{FF19D42C-E17F-490E-B59A-DD4DAC41F0BF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{EC4351D6-BE7E-42E4-8A87-74227A3B17E1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - UI", "6 - UI", "{EC4351D6-BE7E-42E4-8A87-74227A3B17E1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Product.CommonService.UI", "..\..\Source\CommonService\UI\HeBianGu.Product.CommonService.UI\HeBianGu.Product.CommonService.UI.csproj", "{6981BE5A-7A52-40E2-81C9-3F5CE651B836}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Thread", "Thread", "{B29E0D92-6842-4669-9AF1-CB0902CA7733}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Thread", "5 - Thread", "{B29E0D92-6842-4669-9AF1-CB0902CA7733}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Product.CommonService.Thread", "..\..\Source\CommonService\Thread\HeBianGu.Product.CommonService.Thread\HeBianGu.Product.CommonService.Thread.csproj", "{46C69AC4-D895-4403-B4BB-14F689E74550}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{AD849A8A-D8F3-44CE-9FC6-499CAD14D7AD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7 - Web", "7 - Web", "{AD849A8A-D8F3-44CE-9FC6-499CAD14D7AD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Product.CommonService.Web", "..\..\Source\CommonService\Web\HeBianGu.Product.CommonService.Web\HeBianGu.Product.CommonService.Web.csproj", "{462EA163-EAC8-46A7-89BC-5EEA5899EBF8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{D466A66A-1464-43FE-9117-ADF56EE9F160}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Nuget", "4 - Nuget", "{D466A66A-1464-43FE-9117-ADF56EE9F160}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Product.CommonService.Logger", "..\..\Source\CommonService\Nuget\HeBianGu.Product.CommonService.Logger\HeBianGu.Product.CommonService.Logger.csproj", "{CF4490A8-1491-47E8-A171-FC6605B99CFA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{5CDE9F2E-9263-433F-86DF-4EB200DD9FE6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Common", "1 - Common", "{5CDE9F2E-9263-433F-86DF-4EB200DD9FE6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Product.CommonService.Excel", "..\..\Source\CommonService\Common\HeBianGu.Product.CommonService.Excel\HeBianGu.Product.CommonService.Excel.csproj", "{D571BA66-00FF-4F98-B710-6EF7B5089972}"
 EndProject
@@ -44,6 +44,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Product.CommonService.Redis", "..\..\Source\CommonService\Common\HeBianGu.Product.CommonService.RedisService\HeBianGu.Product.CommonService.Redis.csproj", "{7F1E15A4-C187-410F-866E-9F1960E9090E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Product.CommonService.Tool", "..\..\Source\CommonService\Common\HeBianGu.Product.CommonService.Tool\HeBianGu.Product.CommonService.Tool.csproj", "{130C3FC4-8C95-4B4F-A3FE-63690468C081}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8 - Window", "8 - Window", "{FEBF8403-42E0-4434-91D2-2859C1CD1521}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Product.CommonService.Window.API", "..\..\Source\CommonService\Window\HeBianGu.Product.CommonService.Window.API\HeBianGu.Product.CommonService.Window.API.csproj", "{705C4F2C-4BBE-4999-8A2F-824DBE4A575B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Product.CommonService.Caculate", "..\..\Source\CommonService\Common\HeBianGu.Product.CommonService.Caculate\HeBianGu.Product.CommonService.Caculate.csproj", "{C783DB60-8E41-4945-8070-367F0E6D0A0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,6 +109,14 @@ Global
 		{130C3FC4-8C95-4B4F-A3FE-63690468C081}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{130C3FC4-8C95-4B4F-A3FE-63690468C081}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{130C3FC4-8C95-4B4F-A3FE-63690468C081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{705C4F2C-4BBE-4999-8A2F-824DBE4A575B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{705C4F2C-4BBE-4999-8A2F-824DBE4A575B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{705C4F2C-4BBE-4999-8A2F-824DBE4A575B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{705C4F2C-4BBE-4999-8A2F-824DBE4A575B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C783DB60-8E41-4945-8070-367F0E6D0A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C783DB60-8E41-4945-8070-367F0E6D0A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C783DB60-8E41-4945-8070-367F0E6D0A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C783DB60-8E41-4945-8070-367F0E6D0A0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -128,5 +142,8 @@ Global
 		{1101AA25-ECF5-4E4A-B28A-A0E2BFC209E2} = {5CDE9F2E-9263-433F-86DF-4EB200DD9FE6}
 		{7F1E15A4-C187-410F-866E-9F1960E9090E} = {D466A66A-1464-43FE-9117-ADF56EE9F160}
 		{130C3FC4-8C95-4B4F-A3FE-63690468C081} = {5CDE9F2E-9263-433F-86DF-4EB200DD9FE6}
+		{FEBF8403-42E0-4434-91D2-2859C1CD1521} = {B68D8EE2-4040-4097-9EC3-041EF64EA0DE}
+		{705C4F2C-4BBE-4999-8A2F-824DBE4A575B} = {FEBF8403-42E0-4434-91D2-2859C1CD1521}
+		{C783DB60-8E41-4945-8070-367F0E6D0A0B} = {5CDE9F2E-9263-433F-86DF-4EB200DD9FE6}
 	EndGlobalSection
 EndGlobal

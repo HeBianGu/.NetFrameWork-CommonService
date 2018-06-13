@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0FE7853F-C7C8-4F54-9440-56FED6D3F631}</ProjectGuid>
+    <ProjectGuid>{C783DB60-8E41-4945-8070-367F0E6D0A0B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HeBianGu.Product.CommonService.IO</RootNamespace>
-    <AssemblyName>HeBianGu.Product.CommonService.IO</AssemblyName>
+    <RootNamespace>HeBianGu.Product.CommonService.Caculate</RootNamespace>
+    <AssemblyName>HeBianGu.Product.CommonService.Caculate</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,12 +40,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="DataRead\PetrelRead.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="MMF\" />
+    <Compile Include="多播方法处理\ITaskEntity.cs" />
+    <Compile Include="多播方法处理\TaskListEngine.cs" />
+    <Compile Include="委托外包模式\DelegateFace.cs" />
+    <Compile Include="注册任务列表\TaskLastModelEngine.cs" />
+    <Compile Include="注册任务列表\TaskListActionEngine.cs" />
+    <Compile Include="注册任务列表\TaskListPredicateEngine.cs" />
+    <Compile Include="生成树状结构\INode.cs" />
+    <Compile Include="生成树状结构\ITNode.cs" />
+    <Compile Include="生成树状结构\TreeService.cs" />
+    <Compile Include="集合分组截取计算\CaculateGroupEngineT.cs" />
+    <Compile Include="集合分组截取计算\ModelEntityT.cs" />
+    <Compile Include="集合分组截取计算\QueueSpaceCaculateProvider.cs" />
+    <Compile Include="集合划分维数\LDModel.cs" />
+    <Compile Include="集合划分维数\ListSplitHelper.cs" />
+    <Compile Include="集合按调解拆分\SplitDataEngine.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

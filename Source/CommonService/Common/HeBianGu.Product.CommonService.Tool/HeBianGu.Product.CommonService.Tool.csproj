@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -41,24 +42,37 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseType\Attribute\AttributeExtention.cs" />
+    <Compile Include="BaseType\Attribute\Desc.cs" />
+    <Compile Include="BaseType\Delegete\ActionService.cs" />
+    <Compile Include="BaseType\Delegete\DelegeteExtention.cs" />
+    <Compile Include="BaseType\Delegete\EventServce.cs" />
+    <Compile Include="BaseType\Enumerable\Array\ArrayExtension.cs" />
+    <Compile Include="BaseType\Enumerable\DataTable\DataTableExtention.cs" />
+    <Compile Include="BaseType\Enumerable\Dictionary\DictionaryExtention.cs" />
+    <Compile Include="BaseType\Enumerable\UserEntity\TMap.cs" />
+    <Compile Include="BaseType\Enumerable\IEnumerable\IEnumerableHelper.cs" />
+    <Compile Include="BaseType\Enumerable\While\WhileExtention.cs" />
+    <Compile Include="Cache\MemoryCache.cs" />
+    <Compile Include="Cache\ICache.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="BaseType\DateTime\ChineseCalendar.cs" />
     <Compile Include="BaseType\DateTime\TimeSpanExtention.cs" />
     <Compile Include="BaseType\DateTime\DateTimeExtention.cs" />
+    <Compile Include="Command\Cmd.cs" />
+    <Compile Include="Command\CmdAPI.cs" />
+    <Compile Include="Command\CmdStr.cs" />
+    <Compile Include="ConfigInfo\INIFile.cs" />
+    <Compile Include="ConfigInfo\IniHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BaseType\Assembly\" />
-    <Folder Include="BaseType\Attribute\" />
-    <Folder Include="BaseType\Delegete\" />
-    <Folder Include="BaseType\Enumerable\" />
     <Folder Include="BaseType\Enum\" />
     <Folder Include="BaseType\Format\" />
     <Folder Include="BaseType\Object\" />
     <Folder Include="BaseType\String\" />
     <Folder Include="BaseType\Type\" />
-    <Folder Include="Command\" />
-    <Folder Include="ConfigInfo\" />
     <Folder Include="Encryption\" />
     <Folder Include="Exception\" />
     <Folder Include="Factory\" />
@@ -71,6 +85,14 @@
     <Folder Include="SystemFile\" />
     <Folder Include="System\Registry\" />
     <Folder Include="System\WindowApi\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BaseType\Attribute\常见特性.dgml" />
+    <None Include="BaseType\Attribute\特性构成.dgml" />
+    <None Include="BaseType\Delegete\自带通用委托.dgml" />
+    <None Include="BaseType\Enumerable\集合扩展.dgml" />
+    <None Include="Command\调用CMD命令.dgml" />
+    <None Include="ConfigInfo\配置文件操作.dgml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

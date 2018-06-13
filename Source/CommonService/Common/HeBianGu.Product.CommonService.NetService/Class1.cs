@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HeBianGu.Product.CommonService.NetService
+namespace HeBianGu.Product.CommonService.Net
 {
     public class Class1
     {
