@@ -1,5 +1,4 @@
-﻿using HebianGu.ComLibModule.Factory;
-using HebianGu.ObjectBase.Logger;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +16,9 @@ namespace HeBianGu.Product.CommonService.Tool
         /// <summary> 此方法的说明 </summary>
         public void Set(T t)
         {
+
+
+
             if (_cache.Exists(l => l.Equals(t))) return;
 
             _cache.Add(t);

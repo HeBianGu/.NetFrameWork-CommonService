@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Product.CommonServ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Product.CommonService.Caculate", "..\..\Source\CommonService\Common\HeBianGu.Product.CommonService.Caculate\HeBianGu.Product.CommonService.Caculate.csproj", "{C783DB60-8E41-4945-8070-367F0E6D0A0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Product.CommonService.ThreadTester", "..\..\Source\CommonService\Thread\HeBianGu.Product.CommonService.ThreadTester\HeBianGu.Product.CommonService.ThreadTester.csproj", "{3A96504E-1C31-45DC-9503-8E2082019E13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{C783DB60-8E41-4945-8070-367F0E6D0A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C783DB60-8E41-4945-8070-367F0E6D0A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C783DB60-8E41-4945-8070-367F0E6D0A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A96504E-1C31-45DC-9503-8E2082019E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A96504E-1C31-45DC-9503-8E2082019E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A96504E-1C31-45DC-9503-8E2082019E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A96504E-1C31-45DC-9503-8E2082019E13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -145,5 +151,6 @@ Global
 		{FEBF8403-42E0-4434-91D2-2859C1CD1521} = {B68D8EE2-4040-4097-9EC3-041EF64EA0DE}
 		{705C4F2C-4BBE-4999-8A2F-824DBE4A575B} = {FEBF8403-42E0-4434-91D2-2859C1CD1521}
 		{C783DB60-8E41-4945-8070-367F0E6D0A0B} = {5CDE9F2E-9263-433F-86DF-4EB200DD9FE6}
+		{3A96504E-1C31-45DC-9503-8E2082019E13} = {B29E0D92-6842-4669-9AF1-CB0902CA7733}
 	EndGlobalSection
 EndGlobal
