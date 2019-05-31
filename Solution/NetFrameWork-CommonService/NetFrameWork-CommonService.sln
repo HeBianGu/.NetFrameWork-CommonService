@@ -1,15 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonService", "CommonService", "{B68D8EE2-4040-4097-9EC3-041EF64EA0DE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - DataBase", "2 - DataBase", "{E20BEDF9-8927-4764-A7E9-E6508022A35E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Product.CommonService.DataBase.Accecss", "..\..\Source\CommonService\DataBase\HeBianGu.Product.CommonService.DataBase.Accecss\HeBianGu.Product.CommonService.DataBase.Accecss.csproj", "{4C50F191-48F1-4785-865F-B2EDE0852CEF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Product.CommonService.Excel", "..\..\Source\CommonService\HeBianGu.Product.CommonService.Excel\HeBianGu.Product.CommonService.Excel.csproj", "{443BB289-2B0B-4FE5-B54A-DF6842509806}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Product.CommonService.IO", "..\..\Source\CommonService\IO\HeBianGu.Product.CommonService.IO\HeBianGu.Product.CommonService.IO.csproj", "{0FE7853F-C7C8-4F54-9440-56FED6D3F631}"
 EndProject
@@ -63,10 +61,6 @@ Global
 		{4C50F191-48F1-4785-865F-B2EDE0852CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C50F191-48F1-4785-865F-B2EDE0852CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C50F191-48F1-4785-865F-B2EDE0852CEF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{443BB289-2B0B-4FE5-B54A-DF6842509806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{443BB289-2B0B-4FE5-B54A-DF6842509806}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{443BB289-2B0B-4FE5-B54A-DF6842509806}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{443BB289-2B0B-4FE5-B54A-DF6842509806}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0FE7853F-C7C8-4F54-9440-56FED6D3F631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0FE7853F-C7C8-4F54-9440-56FED6D3F631}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FE7853F-C7C8-4F54-9440-56FED6D3F631}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -130,7 +124,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E20BEDF9-8927-4764-A7E9-E6508022A35E} = {B68D8EE2-4040-4097-9EC3-041EF64EA0DE}
 		{4C50F191-48F1-4785-865F-B2EDE0852CEF} = {E20BEDF9-8927-4764-A7E9-E6508022A35E}
-		{443BB289-2B0B-4FE5-B54A-DF6842509806} = {D466A66A-1464-43FE-9117-ADF56EE9F160}
 		{0FE7853F-C7C8-4F54-9440-56FED6D3F631} = {FF19D42C-E17F-490E-B59A-DD4DAC41F0BF}
 		{FF19D42C-E17F-490E-B59A-DD4DAC41F0BF} = {B68D8EE2-4040-4097-9EC3-041EF64EA0DE}
 		{EC4351D6-BE7E-42E4-8A87-74227A3B17E1} = {B68D8EE2-4040-4097-9EC3-041EF64EA0DE}
@@ -152,5 +145,8 @@ Global
 		{705C4F2C-4BBE-4999-8A2F-824DBE4A575B} = {FEBF8403-42E0-4434-91D2-2859C1CD1521}
 		{C783DB60-8E41-4945-8070-367F0E6D0A0B} = {5CDE9F2E-9263-433F-86DF-4EB200DD9FE6}
 		{3A96504E-1C31-45DC-9503-8E2082019E13} = {B29E0D92-6842-4669-9AF1-CB0902CA7733}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F31593CC-3C3A-4DE3-8AC2-85D3166EC58F}
 	EndGlobalSection
 EndGlobal

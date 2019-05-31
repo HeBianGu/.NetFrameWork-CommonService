@@ -493,6 +493,5 @@ namespace HeBianGu.Product.CommonService.ThreadTester
             get { return _value; }
             set { _value = value; }
         }
-
     }
 }
